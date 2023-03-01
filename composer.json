@@ -1,0 +1,23 @@
+{
+  "name": "amphibee/frontend-account",
+  "description": "This plugin allows user account integration on the frontend",
+  "keywords": ["themosis", "plugin", "user", "account"],
+  "authors": [
+    {
+      "name": "AmphiBee",
+      "email": "hello@amphibee.fr",
+      "homepage": "https://amphibee.fr"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "repositories":[
+    {
+      "type":"composer",
+      "url":"https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "composer/installers" : "~1.2"
+  }
+}

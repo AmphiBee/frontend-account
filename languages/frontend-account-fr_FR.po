@@ -1,0 +1,120 @@
+# Copyright (C) 2023 AmphiBee
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Frontend Account 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/frontend-"
+"account\n"
+"POT-Creation-Date: 2023-02-15T15:16:38+00:00\n"
+"PO-Revision-Date: 2023-02-15 16:17+0100\n"
+"Last-Translator: Loïc HALL <lhall@amphibee.fr>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Domain: frontend-account\n"
+
+#. Plugin Name of the plugin
+msgid "Frontend Account"
+msgstr "Frontend Account"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://amphibee.fr"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin allows user account integration on the frontend"
+msgstr ""
+"Cette extension permet d'intégrer un profil utilisateur sur votre site "
+"Internet"
+
+#. Author of the plugin
+msgid "AmphiBee"
+msgstr ""
+
+#: resources/Controllers/UserController.php:16
+msgid "My Account"
+msgstr "Mon compte"
+
+#: resources/Forms/AccountForm.php:62 resources/Forms/AccountForm.php:66
+msgid "First name"
+msgstr "Prénom"
+
+#: resources/Forms/AccountForm.php:78 resources/Forms/AccountForm.php:82
+msgid "Last name"
+msgstr "Nom"
+
+#: resources/Forms/AccountForm.php:94 resources/Forms/AccountForm.php:98
+#: resources/Forms/LoginForm.php:73 resources/Forms/LoginForm.php:76
+msgid "Email"
+msgstr "Email"
+
+#: resources/Forms/AccountForm.php:110 resources/Forms/AccountForm.php:114
+#: resources/Forms/LoginForm.php:84 resources/Forms/LoginForm.php:88
+msgid "Password"
+msgstr "Mot de passe"
+
+#: resources/Forms/AccountForm.php:125 resources/Forms/AccountForm.php:128
+msgid "Envoyer"
+msgstr ""
+
+#: resources/Providers/FrontendAccountOptionPage.php:13
+msgid "FrontendAccount"
+msgstr ""
+
+#: resources/Providers/FrontendAccountOptionPage.php:20
+#: resources/Providers/FrontendAccountOptionPage.php:35
+#: resources/Providers/FrontendAccountOptionPage.php:55
+msgid "Login"
+msgstr "Se connecter"
+
+#: resources/Providers/FrontendAccountOptionPage.php:21
+msgid "Forgot password"
+msgstr "Mot de passe oublié"
+
+#: resources/Providers/FrontendAccountOptionPage.php:22
+msgid "Account dashboard"
+msgstr "Tableau de bord"
+
+#: resources/Providers/FrontendAccountOptionPage.php:33
+#: resources/Providers/FrontendAccountOptionPage.php:53
+msgid "Title"
+msgstr "Titre"
+
+#: resources/Providers/FrontendAccountOptionPage.php:39
+#: resources/Providers/FrontendAccountOptionPage.php:41
+#: resources/Providers/FrontendAccountOptionPage.php:59
+#: resources/Providers/FrontendAccountOptionPage.php:61
+msgid "Description"
+msgstr "Description"
+
+#: resources/Providers/FrontendAccountOptionPage.php:45
+#: resources/Providers/FrontendAccountOptionPage.php:47
+msgid "Forgot password title"
+msgstr "Titre page mot de passe perdu"
+
+#: resources/Providers/FrontendAccountOptionPage.php:65
+#: resources/Providers/FrontendAccountOptionPage.php:67
+msgid "Confirmation message"
+msgstr "Message de confirmation"
+
+#: resources/Providers/FrontendAccountOptionPage.php:73
+#: resources/Providers/FrontendAccountOptionPage.php:75
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+#: routes.php:23
+msgid "Forgot password confirmation"
+msgstr "Titre page mot de passe perdu"
+
+#: views/frontend-account/account.blade.php:6
+msgid "Hello %s"
+msgstr "Bonjour %s"
+
+#: views/frontend-account/account.blade.php:18
+msgid "Logout"
+msgstr "Déconnexion"
